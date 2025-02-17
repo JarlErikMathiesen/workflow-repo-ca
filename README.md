@@ -65,10 +65,14 @@ npm init playwright@latest
 
 End-to-end tests on this project cover key user flows:
 
-Login functionality
-Navigation and venue browsing
+- Login functionality
+- Navigation and venue browsing
 
-to
+to run the Playwright tests:
+
+```bash
+npx playwright test
+```
 
 ### Environment Variables
 
