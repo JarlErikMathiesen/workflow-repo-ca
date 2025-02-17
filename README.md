@@ -2,12 +2,22 @@
 
 This repository features a venue browsing app with testing functonality. It's for a school project.
 
+## Development Tools
+
+The project uses several development tools to maintain code quality:
+
+- ESLint: JavaScript linting
+- Prettier: Code formatting
+- Husky: Git hooks for pre-commit checks
+- Vitest: Unit testing
+- Playwright: End-to-end testing
+
 ## Prerequisites
 
 Make sure you have the following installed before beginning
 
-*Node.js
-*npm
+- Node.js
+- npm
 
 ## Installation
 
@@ -58,9 +68,13 @@ End-to-end tests on this project cover key user flows:
 Login functionality
 Navigation and venue browsing
 
+to
+
 ### Environment Variables
 
 Required environment variables:
 
+```env
 TEST_USER_EMAIL=your-email@stud.noroff.no
 TEST_USER_PASSWORD=your-password
+```

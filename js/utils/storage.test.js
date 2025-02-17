@@ -15,7 +15,7 @@ describe('Storage functions', () => {
     expect(result).toBe(user.name);
   });
 
-  it('check that it returns null when user is empty', () => {
+  it('returns null when no user is saved in storage', () => {
     const result = getUsername();
 
     expect(result).toBe(null);

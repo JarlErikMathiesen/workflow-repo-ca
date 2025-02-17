@@ -28,7 +28,7 @@ describe('isActivePath', () => {
 
   it('Returns true when current path includes the href', () => {
     const href = '/login';
-    const currentPath = '/index/login';
+    const currentPath = '/login/details';
 
     const result = isActivePath(href, currentPath);
 
